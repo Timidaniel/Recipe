@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Young serif", serif;
+}
+body {
+  background-color: wheat
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.card-text {
+  line-height: 30px;
+}
+
+.card-body{
+    background-color: lightpink;
+    width: 100%;
+}
+.hero-img{
+    border-radius: 8px;
+}
