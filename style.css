@@ -2,10 +2,11 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Young serif", serif;
+  font-family: "Young Serif", "outfit", serif;
 }
 body {
-  background-color: wheat
+  background-color:#fae5f7;
+  list-style-type: disc #b47650;
 }
 .card-container {
   display: flex;
@@ -14,18 +15,21 @@ body {
   margin: 5%;
 }
 .card {
-  background-color: white;
+  background-color:#fff5fa;
   border-radius: 15px;
   padding: 25px;
+  width: 50%;
 }
 
-.card-text {
-  line-height: 30px;
+.card-text p {
+  /* line-height: 30px; */
+  font-size:13px;
 }
 
-.card-body{
+.card-body {
     background-color: lightpink;
     width: 100%;
+    font-weight: lighter;
 }
 .hero-img{
     border-radius: 8px;
